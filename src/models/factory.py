@@ -14,7 +14,7 @@ from langchain_openai import AzureChatOpenAI, ChatOpenAI
 
 from .credentials import get_aws_credentials
 
- 
+
 def _require_env(var: str) -> str:
     """Return the value of an environment variable or raise an error if it's not set."""
     value = os.environ.get(var)
