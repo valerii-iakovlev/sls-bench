@@ -96,7 +96,7 @@ The script does four things:
 
 ## Minimal example
 
-Run an agent on a single problem and grade the prediction. Save as `run_one.py` at the repo root and run with `python run_one.py`.
+Run an agent on a single problem and grade the prediction:
 
 ```python
 import asyncio
