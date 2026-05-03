@@ -11,10 +11,7 @@ wheels/
 
 # Data
 /data/*
-!/data/runs/
-/data/runs/*
-!/data/runs/*.py
-!/data/runs/*.sh
+!/data/complete/
 
 # Other
 .DS_Store
