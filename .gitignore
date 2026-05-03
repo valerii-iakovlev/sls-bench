@@ -12,6 +12,7 @@ wheels/
 # Data
 /data/*
 !/data/complete/
+!/data/incident-reports/
 
 # Other
 .DS_Store
