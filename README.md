@@ -67,8 +67,9 @@ sh scripts/reference-answers.sh   # incident models -> questions + reference sum
 ```
 
 The generation pipeline uses a generator–verifier loop with GPT-5.2 (high). The full run cost ~$780 in API tokens for the released benchmark. 
-Questions, answers, and logs can be found in our data repository.
 Intermediate artifacts (incident models and simulators) can be found in `data/complete/`.
+
+All benchmark problems (questions, answers, and logs) can be found in our data repository; after downloading them, place `problems.jsonl` to `data/reference-answers`, and extract `logs.zip` to `data/logs/log-files`.
 
 ## Evaluation pipeline
 
